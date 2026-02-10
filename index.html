@@ -4,50 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio 3 w/ Bootstrap</title>
+
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
 
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       crossorigin="anonymous" />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"></a>
       <button
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
-        data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
+        data-bs-target="#navbarNavDropdown">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Experience</a></li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#"
-              id="navbarDropdownMenuLink"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false">
+              data-bs-toggle="dropdown">
               Projects
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Black Static</a>
               <a class="dropdown-item" href="#">Holiday Drive In</a>
               <a class="dropdown-item" href="#">Brookside Bakery</a>
@@ -57,6 +54,7 @@
       </div>
     </nav>
 
+    <!-- HERO -->
     <section class="hero">
       <div class="d-flex justify-content-around align-items-center py-5">
         <div class="d-flex flex-column">
@@ -64,7 +62,6 @@
             Hey, <br />
             I'm Liz
           </h1>
-
           <p class="text-uppercase">Self taught web developer</p>
         </div>
 
@@ -72,165 +69,163 @@
       </div>
     </section>
 
+    <!-- EXPERIENCE -->
     <section class="experience py-5">
-      <div class="row px-5">
+      <div class="container">
         <h2 class="text-center pb-5">Resume</h2>
-        <div class="prof-journey col-lg-6">
-          <div class="d-flex gap-3 align-items-center pb-2">
-            <i class="fa-solid fa-briefcase"></i>
-            <h3>Professional Journey</h3>
-          </div>
-          <p class="pb-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            dolorem, necessitatibus voluptas dicta ut ab!
-          </p>
 
-          <!-- 1st Experience Card -->
-          <div class="card card-animation py-4 border-left">
-            <div class="header-main d-flex justify-content-around">
-              <div class="header-text">
-                <h4 class="">Emergencey Medical Technition</h4>
-                <h5>EMT - Ohio Ambulance</h5>
+        <div class="row">
+          <!-- LEFT COLUMN -->
+          <div class="prof-journey col-lg-6">
+            <div class="d-flex gap-3 align-items-center pb-2">
+              <i class="fa-solid fa-briefcase"></i>
+              <h3>Professional Journey</h3>
+            </div>
+
+            <p class="pb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              dolorem, necessitatibus voluptas dicta ut ab!
+            </p>
+
+            <!-- 1st Experience Card -->
+            <div class="card card-animation py-4 border-left mb-4">
+              <div class="header-main d-flex justify-content-around">
+                <div class="header-text">
+                  <h4>Emergencey Medical Technition</h4>
+                  <h5>EMT - Ohio Ambulance</h5>
+                </div>
+                <span class="badge bg-primary rounded-pill h-50">
+                  2017 - 2022
+                </span>
               </div>
 
-              <span class="badge bg-primary rounded-pill h-50"
-                >2017 - 2022</span
-              >
+              <div class="card-body px-4">
+                <p class="card-text">
+                  Emergency Medical Technicians (EMT) respond to emergency
+                  calls, provide immediate medical care and basic life support,
+                  assess and stabilize patients, and safely transports them to
+                  medical facilities while maintaining clear communication and
+                  accurate documentation.
+                </p>
+
+                <ul class="check-list px-3">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Teamwork in high pressure environments
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Clear and effective communication
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Strong problem-solving and time management skills
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            <div class="card-body px-4">
-              <p class="card-text">
-                Emergency Medical Technicians (EMT) respond to emergency calls,
-                provide immediate medical care and basic life support, assess
-                and stabilize patients, and safely transports them to medical
-                facilities while maintaining clear communication and accurate
-                documentation.
-              </p>
-
-              <ul class="check-list px-3">
-                <li>
-                  <i class="fa-solid fa-circle-check"></i>
-                  Teamwork in high pressure environments
-                </li>
-
-                <li>
-                  <i class="fa-solid fa-circle-check"></i>
-                  Clear and effective communication
-                </li>
-                <li>
-                  <i class="fa-solid fa-circle-check"></i>
-                  Strong problem-solving and time management skills
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- 1st Academic Card -->
-        <div class="academic-journey col-lg-6">
-          <div class="d-flex gap-3 align-items-center pb-2">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <h3>Academic Journey</h3>
-          </div>
-          <p class="pb-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            suscipit ducimus minima illum doloremque vel magni sint sapiente
-            provident dignissimos.
-          </p>
-
-          <div class="card card-animation py-4">
-            <div class="header-main d-flex justify-content-between px-4">
-              <div class="header-text">
-                <h4 class="">Bachelor of Science</h4>
-                <h5>Kent State University</h5>
+            <!-- 2nd Experience Card -->
+            <div class="card card-animation py-4 border-left">
+              <div class="header-main d-flex justify-content-around">
+                <div class="header-text">
+                  <h4>Certified Athletic Trainer</h4>
+                  <h5>Beacon Orthopaedics & Sports Medicine</h5>
+                </div>
+                <span class="badge bg-primary rounded-pill h-50">
+                  2017 - 2020
+                </span>
               </div>
 
-              <span class="badge bg-primary rounded-pill h-50"
-                >2014 - 2018</span
-              >
-            </div>
+              <div class="card-body px-4">
+                <p class="card-text">
+                  Athletic trainers are responsible for providing injury
+                  prevention, emergency care, rehabilitation, and treatment for
+                  athletes, evaluating and diagnosing sports-related injuries,
+                  collaborating with healthcare professionals to develop
+                  treatment plans, and educating athletes on injury prevention,
+                  nutrition, and conditioning while maintaining detailed records
+                  of injuries and treatments.
+                </p>
 
-            <div class="card-body px-4">
-              <p class="card-text">
-                I attended KSU, where I completed a comprehensive program
-                focused on injury prevention, evaluation, rehabilitation, and
-                emergency care for athletes.
-              </p>
+                <ul class="check-list px-3">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Detailed and accurate doumentation
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Team collaboration
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Attention to detail
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- 2nd Experience Card -->
-      <div class="row px-5">
-        <div class="col-lg-6">
-          <div class="card card-animation py-4 border-left my-4">
-            <div class="header-main d-flex justify-content-around">
-              <div class="header-text">
-                <h4 class="">Certified Athletic Trainer</h4>
-                <h5>Beacon Orthopaedics & Sports Medicine</h5>
+          <!-- RIGHT COLUMN -->
+          <div class="academic-journey col-lg-6">
+            <div class="d-flex gap-3 align-items-center pb-2">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>Academic Journey</h3>
+            </div>
+
+            <p class="pb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              suscipit ducimus minima illum doloremque vel magni sint sapiente
+              provident dignissimos.
+            </p>
+
+            <!-- 1st Academic Card -->
+            <div class="card card-animation py-4 mb-4">
+              <div class="header-main d-flex justify-content-between px-4">
+                <div class="header-text">
+                  <h4>Bachelor of Science</h4>
+                  <h5>Kent State University</h5>
+                </div>
+                <span class="badge bg-primary rounded-pill h-50">
+                  2014 - 2018
+                </span>
               </div>
 
-              <span class="badge bg-primary rounded-pill h-50"
-                >2017 - 2020</span
-              >
+              <div class="card-body px-4">
+                <p class="card-text">
+                  I attended KSU, where I completed a comprehensive program
+                  focused on injury prevention, evaluation, rehabilitation, and
+                  emergency care for athletes.
+                </p>
+              </div>
             </div>
 
-            <div class="card-body px-4">
-              <p class="card-text">
-                Athletic trainers are responsible for providing injury
-                prevention, emergency care, rehabilitation, and treatment for
-                athletes, evaluating and diagnosing sports-related injuries,
-                collaborating with healthcare professionals to develop treatment
-                plans, and educating athletes on injury prevention, nutrition,
-                and conditioning while maintaining detailed records of injuries
-                and treatments.
-              </p>
-
-              <ul class="check-list px-3">
-                <li>
-                  <i class="fa-solid fa-circle-check"></i>
-                  Detailed and accurate doumentation
-                </li>
-
-                <li>
-                  <i class="fa-solid fa-circle-check"></i>
-                  Team collaboration
-                </li>
-                <li>
-                  <i class="fa-solid fa-circle-check"></i>
-                  Attention to detail
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="card card-animation py-4">
-            <div class="header-main d-flex justify-content-between px-4">
-              <div class="header-text">
-                <h4 class="">Bachelor of Science</h4>
-                <h5>Kent State University</h5>
+            <!-- 2nd Academic Card -->
+            <div class="card card-animation py-4">
+              <div class="header-main d-flex justify-content-between px-4">
+                <div class="header-text">
+                  <h4>Bachelor of Science</h4>
+                  <h5>Kent State University</h5>
+                </div>
+                <span class="badge bg-primary rounded-pill h-50">
+                  2014 - 2018
+                </span>
               </div>
 
-              <span class="badge bg-primary rounded-pill h-50"
-                >2014 - 2018</span
-              >
-            </div>
-
-            <div class="card-body px-4">
-              <p class="card-text">
-                I attended KSU, where I completed a comprehensive program
-                focused on injury prevention, evaluation, rehabilitation, and
-                emergency care for athletes.
-              </p>
+              <div class="card-body px-4">
+                <p class="card-text">
+                  I attended KSU, where I completed a comprehensive program
+                  focused on injury prevention, evaluation, rehabilitation, and
+                  emergency care for athletes.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       crossorigin="anonymous"></script>
