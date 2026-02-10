@@ -19,11 +19,14 @@
   color: #28a745;
 }
 
-.experience .badge {
+.experience .badge,
+.academic-journey .badge {
   font-size: 1rem;
   padding: 0.75rem 1rem;
+  display: inline-block; /* Ensure it behaves like a block element but stays inline */
+  vertical-align: middle; /* Ensures it aligns vertically with text */
 }
 
 .border-left {
-  border-left: 2px solid blue;
+  border-left: 4px solid blue;
 }
