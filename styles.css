@@ -8,10 +8,25 @@
 }
 
 /* ---------- About Section ---------- */
+.about {
+  padding: 8rem 0;
+}
+
+.about .division-line {
+  padding: 0;
+  margin: 0;
+}
+
 .division-line {
   background: #0d6efd;
   height: 2px;
-  width: 25%;
+  width: 100%; /* fill available space */
+  max-width: 25%; /* limit how long the line is */
+  margin: 0; /* remove extra margin */
+}
+
+.about p {
+  max-width: 500px;
 }
 
 /* ---------- Professional Journey ---------- */
