@@ -1,3 +1,7 @@
+:root {
+  --dark-blue: #352a79;
+}
+
 .hero-img {
   max-width: 400px;
 }
@@ -66,5 +70,23 @@
 
 .card-animation:hover {
   transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------- Services ---------- */
+.services a {
+  text-decoration: none;
+}
+
+.services .card h5 {
+  color: var(--dark-blue);
+}
+
+.services .card {
+  transition: 0.3s ease-in-out;
+}
+
+.services .card:hover {
+  transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
