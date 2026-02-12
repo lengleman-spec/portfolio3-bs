@@ -371,23 +371,62 @@
     <section class="contact">
       <div class="container">
         <div class="division-container d-flex align-items-center gap-3 py-5">
-          <h2 class="">Services</h2>
+          <h2>Contact Me</h2>
           <div class="division-line"></div>
         </div>
 
-        <form>
-          <div class="row">
-            <div class="col-lg-6">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="First name" />
-            </div>
-            <div class="col-lg-6">
-              <input type="text" class="form-control" placeholder="Last name" />
+        <!-- Row for side-by-side layout -->
+        <div class="row">
+          <!-- Form -->
+          <div class="col-lg-6 mb-4">
+            <form>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control text-muted"
+                    placeholder="First Name" />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name" />
+                </div>
+                <div class="col-12 mb-3">
+                  <input type="text" class="form-control" placeholder="Email" />
+                </div>
+                <div class="col-12 mb-3">
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="Write your message here..."></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-lg-6 mb-4 border p-3">
+            <h3>Contact Info</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+              earum unde. Saepe nostrum tempore ut, iste repellat officia fugiat
+              dolore?
+            </p>
+
+            <div class="border d-flex align-items-start gap-3 p-2">
+              <i class="fa-solid fa-location-dot fa-2x"></i>
+              <div>
+                <h4>Our Location</h4>
+                <address>
+                  123 Adams Street <br />
+                  New York, NY 535022
+                </address>
+              </div>
             </div>
           </div>
-        </form>
+        </div>
       </div>
     </section>
 
