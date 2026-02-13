@@ -91,4 +91,7 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* ---------- CONTACT INFO ---------- */
+/* ---------- FOOTER ---------- */
+footer i:hover {
+  color: var(--dark-blue);
+}
